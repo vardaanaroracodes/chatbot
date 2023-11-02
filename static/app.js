@@ -80,4 +80,4 @@ class Chatbot {
 }
 
 const chatbox = new Chatbox();
-chatbox.display()
+chatbox.display();
