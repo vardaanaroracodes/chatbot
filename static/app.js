@@ -54,16 +54,15 @@ class Chatbot {
         .then(result => {
             let msg2 = { name: "Sam", message: result.answer };
             this.messages.push(msg2);
-            this.updateChatText(chatbox); // You should define the updateChatText function
+            this.updateChatText(chatbox);
             textField.value = '';
         })
         .catch(error => {
             console.error('Error:', error);
-            this.updateChatText(chatbox); // You should define the updateChatText function
+            this.updateChatText(chatbox);
             textField.value = '';
         });
     }
-
     updateChatText(chatbox) {
         var html = '';
         this.messages.slice().reverse().forEach(function (item, index) {
@@ -72,12 +71,13 @@ class Chatbot {
             } else {
                 html += '<div class="messages__item messages__item--operator">' + item.message + '</div>';
             }
-
-            const chatmessage = chatbox.querySelector('.chatbox__messages');
-            chatmessage.innerHTML = html;
         });
+    
+        const chatmessage = chatbox.querySelector('.chatbox__messages');
+        chatmessage.innerHTML = html;
     }
+    
 }
 
-const chatbox = new Chatbox();
+const chatbox = new Chatbot();
 chatbox.display();
