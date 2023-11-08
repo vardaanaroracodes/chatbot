@@ -1,13 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<!-- <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"> -->
 
 <head>
     <meta charset="UTF-8">
     <title>Chatbot</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg bg-primary-subtle" >
+        <div class="container-fluid ">
+          <a href=""><img src="/chatbot/Asian_Development_Bank_logo.svg.png" width="60px" height="60px" alt=""></a>
+          <a class="navbar-brand mx-3 " href="#" style="font-family: arial ;">Grievance Support</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link  mx-2 " aria-current="page" href="#" style="font-family: copperplate;">Visit ADB</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2 " href="#" style="font-family: Copperplate ;">Mail Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2 " href="#" style="font-family: Copperplate;">Chat Support</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+  
+      <div class="block left">
+        <img src="/chatbot/Help1.jpeg" class="img1" alt="Image 1">
+        <div class="text">
+            <h2>We Help</h2>
+            <p> ADB is dedicated to facilitating the development of 
+              essential infrastructure to improve the lives of citizens and communities. 
+              We understand the pivotal role infrastructure plays in fostering economic growth, 
+              ensuring public safety, and enhancing overall quality of life. With a passionate 
+              commitment to progress and sustainable development, we work tirelessly to empower 
+              citizens and local authoritie Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Laboriosam totam, accusantium 
+            nam excepturi enim, voluptate delectus facere harum natus 
+            amet similique voluptatibus ab aspernatur vitae odit non adipisci qui laudantium!</p>
+        </div>
+      </div>
+      <div class="block right">
+        <img src="/chatbot/Help2.jpeg" class="img1" alt="Image 2">
+          <div class="text">
+              <h2>ADB ChatBOT</h2>
+              <p>Introducing our grievance-solving chatbot, a revolutionary tool designed to streamline and expedite the resolution of issues and concerns. 
+                Our chatbot is a cutting-edge virtual assistant specifically crafted to provide immediate support, guidance, and solutions to individuals 
+                facing grievances across a wide spectrum of situations.Powered by advanced artificial intelligence, our chatbot offers a user-friendly interface, 
+                making it accessible to anyone seeking assistance. Whether you're dealing with customer service problems, workplace disputes, or any other type of grievance, 
+                our chatbot is here to help.
+              </p>
+          </div>
+        
+      </div>
+    <div class="block left">
+        <img src="/chatbot/Help3.jpeg" class="img1" alt="Image 3">
+        <div class="text">
+            <h2>Mail US!</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In aperiam expedita debitis consectetur? 
+              Quis aliquid laboriosam explicabo quisquam cumque minus, odio repellat distinctio, delectus rerum 
+              suscipit ad alias nihil architecto consequuntur eum amet. Soluta dolor quae est! Ex dolorem id aut 
+              beatae modi ipsum a, placeat repellendus ducimus ea odio et veniam expedita sequi amet quas, inventore 
+              repudiandae. Laborum fuga autem voluptates? Hic perspiciatis itaque pariatur ea necessitatibus nesciunt 
+              autem doloribus cumque nulla ad, eum sequi rerum beatae minima, blanditiis dicta suscipit, voluptate ab .</p>
+        </div>
+    </div>
+  
+    <footer class="footer">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-5">
+                  <h5><i class="fa fa-road"></i> ADB</h5>
+                  <div class="row">
+                      <div class="col-6">
+                          <ul class="list-unstyled">
+                              <li><a href="">Product</a></li>
+                              <li><a href="">Benefits</a></li>
+                              <li><a href="">Partners</a></li>
+                              <li><a href="">Team</a></li>
+                          </ul>
+                      </div>
+                      <div class="col-6">
+                          <ul class="list-unstyled">
+                              <li><a href="">Documentation</a></li>
+                              <li><a href="">Support</a></li>
+                              <li><a href="">Legal Terms</a></li>
+                              <li><a href="">About</a></li>
+                          </ul>
+                      </div>
+                  </div>
+                  <ul class="nav">
+                      <li class="nav-item"><a href="" class="nav-link pl-0"><i class="fa fa-facebook fa-lg"></i></a></li>
+                      <li class="nav-item"><a href="" class="nav-link"><i class="fa fa-twitter fa-lg"></i></a></li>
+                      <li class="nav-item"><a href="" class="nav-link"><i class="fa fa-github fa-lg"></i></a></li>
+                      <li class="nav-item"><a href="" class="nav-link"><i class="fa fa-instagram fa-lg"></i></a></li>
+                  </ul>
+                  <br>
+              </div>
+              <div class="col-md-2">
+                  <h5 class="text-md-right">Contact Us</h5>
+                  <hr>
+              </div>
+              <div class="col-md-5">
+                  <form>
+                      <fieldset class="form-group">
+                          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                      </fieldset>
+                      <fieldset class="form-group">
+                          <textarea class="form-control" id="exampleMessage" placeholder="Message"></textarea>
+                      </fieldset>
+                      <fieldset class="form-group text-xs-right">
+                          <button type="button" class="btn btn-secondary-outline btn-lg">Send</button>
+                      </fieldset>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </footer>
+   
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <div class="container">
         <div class="chatbox">
             <div class="chatbox__support">
@@ -16,8 +136,8 @@
                         <img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png" alt="image">
                     </div>
                     <div class="chatbox__content--header">
-                        <h4 class="chatbox__heading--header">Chat support</h4>
-                        <p class="chatbox__description--header">Hi. My name is Sam. How can I help you?</p>
+                        <h4 class="chatbox__heading--header">Grievance Support</h4>
+                        <p class="chatbox__description--header">Artemis</p>
                     </div>
                 </div>
                 <div class="chatbox__messages">
@@ -38,5 +158,6 @@
         $SCRIPT_ROOT = {{ request.script_root|tojson }};
     </script>
     <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

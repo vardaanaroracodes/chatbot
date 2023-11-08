@@ -8,13 +8,16 @@
         "How are you",
         "Is anyone there?",
         "Hello",
-        "Good day"
+        "Good day",
+        "Namaste",
+        "Konichawa",
+        "Hello there!",
+        "Hello"
       ],
       "responses": [
-        "Hey :-)",
-        "Hello, thanks for visiting",
         "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
+        "Hi there, how can I help?",
+        "Hey there , Please share your concern :) "
       ]
     },
     {
@@ -32,53 +35,46 @@
       "responses": ["Happy to help!", "Any time!", "My pleasure"]
     },
     {
-      "tag": "items",
+      "tag": "complaint1",
       "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
+        "Because of your construction of roads , some material fell on my premises and broke the existing structure , I need help ",
+        "My house/property is damaged because of the construction of roads , i need support or compensation.",
+        "ADB's construction has done damages to my house , i need compensation asap",
+        "Hello there I have been suffering because of the construction of ADB , My house has broken , I need some sort of monetary compensation. " ,
+        "I lost my house due to construction of roads, I need compensation of 10,000$",
+        "This is not helping , i need compensation for whatever damage has occured due to the construction!"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "I am really sorry to hear that , we would try to compensate your losses , our contractor will connect with you in a time span of 3-4 months .Please be patient ",
+        "We are apologetic , our contractor will compensate your losses in a time span of 3-4 months.Thank you for contacting us !"
       ]
     },
     {
-      "tag": "payments",
+      "tag": "Complaint2",
       "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
+        "The metro construction is too close to my house,Will there me any noise or vibration impact ? If there is i would like a compensation for this !",
+        "Due to the metro construction , which is very close to my house , the noise and vibration impact scares me in future , i would like a compensation.",
+        "Hello , i have a concern to share , the metro construction is too close to my house , will this affext my health , if it does will i be compensated ?"
       ],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "I understand your concern , we have donen verified studies and have come to a conclusion that , the metro construction wont affect your health , but we are still planning to build a noise barrier . Thank you for contacting us !",
+        "Your concern is valid , but our professionals have done enough research and there would be no incremental health impact.Thank you for contacting us , I hope I cleared your problem.",
+        "Our trained proffesionals have done enough research , there would be no incremental health impact , even we are working on creating a noise barrier."
       ]
     },
     {
-      "tag": "delivery",
+      "tag": "Complaint3",
       "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
+        "The contractor cut a tree with birds living on it , they ended up dying , what is ADB doing for the endangered species , this is animal creulity.",
+        "There was a tree that has been cut down , a bird died in this accident , What is ADB doing , this is against humanity.",
+        "A tree has been cut down with an endangered specie living on it , it ended up dying what is ADB doing , this isnt right , I would complaint to the authorities.",
+        "ADB is the worst organisation , it has just killed a bird while constructing , I will complaint against the organisation , What is ADB doing."
       ],
       "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
-      ]
-    },
-    {
-      "tag": "funny",
-      "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
-      ],
-      "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "I am Sorry to hear this , we would try to contact the contractor and fix the issue.",
+        "Every living being deserves to live , We are very sorry for this , We will contact the contractor and take strict action against him."
       ]
     }
+   
   ]
 }
