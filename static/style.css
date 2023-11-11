@@ -208,7 +208,7 @@ body {
 }
 
 .block {
-    display: flex; /* Use flexbox */
+    display: flex; 
 }
 
 .content-container {
